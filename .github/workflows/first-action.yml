@@ -10,7 +10,8 @@ jobs:
           run: |
             echo "Add folder"
             mkdir testing
-            touch abcd.txt
-            ls
             cd testing
+            touch somefile.txt
             ls
+            pwd
+            echo "Test completed"
