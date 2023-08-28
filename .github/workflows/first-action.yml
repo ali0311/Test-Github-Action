@@ -12,3 +12,5 @@ jobs:
             mkdir testing
             touch abcd.txt
             ls
+            cd testing
+            ls
