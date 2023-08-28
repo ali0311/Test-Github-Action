@@ -4,7 +4,9 @@ jobs:
   first_job:
     runs-on: ubuntu-latest
     steps:
-        - name: Print bye
-          run: echo "Bye everyone"
-        - name: Print bye
-          run: echo "Bye everyone"
+        - name: Build soluction
+          run: |
+            echo "Build project"
+            echo "Generate binary"
+        - name: Run Tests
+          run: echo "Run all tests"
