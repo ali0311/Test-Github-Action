@@ -4,9 +4,9 @@ jobs:
   first_job:
     runs-on: ubuntu-latest
     steps:
+        - name: Get Code
+          uses: actions/checkout@v3
         - name: Build soluction
           run: |
-            echo "Build project"
-            echo "Generate binary"
-        - name: Run Tests
-          run: echo "Run all tests"
+            echo "Add folder"
+            mkdir testing
